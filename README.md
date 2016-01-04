@@ -10,8 +10,8 @@ This is my starting point for learning NN & DL.I would like to share learning ex
   I use MATLAB 2014b.
   Pretrained model vgg_face.mat (1GB) is not contained in my repository.Just use the one in "http://www.robots.ox.ac.uk/~vgg/software/vgg_face/".
   In MATLAB:
-  >> convNet = lib.face_feats.convNet('data\vgg_face.mat');
-  >> demo('1.jpg','2.jpg',convNet)
+  .>> convNet = lib.face_feats.convNet('data\vgg_face.mat');
+  .>> demo('1.jpg','2.jpg',convNet)
 3.The result is the cosine similarity of two faces.
 
 
